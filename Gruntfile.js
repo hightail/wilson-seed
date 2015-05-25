@@ -246,14 +246,12 @@ module.exports = function(grunt) {
 
   grunt.registerTask('styles:static',         ['glob-sass-components', 'sass:static']);
   grunt.registerTask('styles:debug',          ['glob-sass-components', 'sass:debug']);
-  grunt.registerTask('code-checks',           ['jshint', 'jscs']);
 
   grunt.registerTask('develop', function(target) {
     var tasks = ['clean:server', 'styles:static', 'express:dev', 'open:dev', 'watch-dev-changes'];
 
     if (target !== 'quick') {
       tasks.unshift('shell:installDependencies');
-      tasks.unshift('code-checks');
     }
 
     grunt.task.run(tasks);
