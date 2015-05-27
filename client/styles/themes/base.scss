@@ -65,18 +65,11 @@ $_404-link-text-color: #FFF !default;
 
 //Theme specific asset path
 $THEME_ASSET_PATH:            "/client/styles/themes/base/";
-$header-logo-path:            "logos/logo-black.png";
-$mobile-header-logo-path:     "logos/hightop-small_32x32.png";
-$mobile-header-wordmark-path: "logos/wordmark.png";
-$loading-logo-path:           "logos/hightop.png" !default;
-$root-folder-mark-logo:       "logos/hightop-filled.png" !default;
-$activation-logo-path:        $loading-logo-path !default;
-
 
 /*************************************************
  * Font Definitions
  ************************************************/
 $FONT_PATH: $THEME_ASSET_PATH + 'fonts/';
-$font-primary-family: 'Verb', Tahoma, Verdana;
-$font-secondary-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans-serif;
+$font-primary-family: Verdana, Helvetica, Arial, sans-serif;
+$font-secondary-family: Verdana, Helvetica, Arial, sans-serif;
 

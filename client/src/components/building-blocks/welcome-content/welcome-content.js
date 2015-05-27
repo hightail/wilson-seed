@@ -1,19 +1,22 @@
 /**
- * home Component
+ * welcome-content Component
  *
- * @class HomeComponent
+ * @class WelcomeContentComponent
+ * @module Hightail
+ * @submodule Hightail.Components
  *
  * @example
- *    <ht-home></ht-home>
+ *    <ht-welcome-content></ht-welcome-content>
  *
  * @author hunter.novak
  * @since 0.0.1
  *
+ * @copyright (c) 2015 Hightail Inc. All Rights Reserved
  */
 'use strict';
 
-angular.wilson.component('home', {
-  page: true,
+angular.wilson.component('welcome-content', {
+  
   controller: ['$scope',
     function($scope) {
       var controller = this;
@@ -28,6 +31,10 @@ angular.wilson.component('home', {
       //  });
 
     }
-  ]
+  ],
+  
+  link: function($scope, $element, $attrs, controller) {
+
+  }
   
 });
