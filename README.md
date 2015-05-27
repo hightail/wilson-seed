@@ -25,7 +25,7 @@ npm install -g hightail/generator-wilson
 Now you just need to get the Wilson seed application. Just run this in your terminal:
 
 ```
-curl -L https://github.com/hightail/wilson-seed/archive/1.0.1.zip > wilson-seed.zip; unzip wilson-seed.zip; rm wilson-seed.zip;
+curl -L https://github.com/hightail/wilson-seed/archive/1.0.2.zip > wilson-seed.zip; unzip wilson-seed.zip; rm wilson-seed.zip;
 ```
 
 (NOTE: You can name the resulting directory with whatever name you'd like)
