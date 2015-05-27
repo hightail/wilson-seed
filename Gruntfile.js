@@ -15,7 +15,7 @@ var wilsonConfig    = require('./server/config/wilson-config.json');
 var appConfig       = lodash.merge({}, wilsonConfig, commonConfig, envConfig);
 
 var appPort         = appConfig.server.deploy.port || '3000';
-var appUrl          = appConfig.server.deploy.protocol + '://local-wilson.com';
+var appUrl          = appConfig.server.deploy.protocol + '://localhost';
 appUrl              += (appPort === '80' || appPort === '443') ? '' : (':' + appPort);
 
 
